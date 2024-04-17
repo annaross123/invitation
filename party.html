@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDAY BONANZA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">
+   MARIANA, CHLOE, URSULA, DREW BIRTHDAY PARTY!
+    </h1>
+    <p>
+        <img src="drew.JPG" alt="" width="250" height="300">
+        <img src="ursula.jpeg" alt="" width="250" height="300">
+        <img src="chlow.jpeg" alt="" width="250" height="300">
+        <img src="mariana.jpg" alt="" widtgh="250" height="300">
+    </p>
+    <br>
+    <br>
+    <div>
+        You are invited to Drew, Ursula, Chloe, and Mariana's birthday party! 
+    </div>
+    <br>
+    <div>
+        When: 8:00 pm
+        <br>
+        Where: 1854 San Juan Ave
+        <br>
+        Why: Birthday and Mariana is leaving the next day
+        <br>
+        What: Drinking with friends
+        <br>
+        Who: Everyone 
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div id="hello">
+        RSVP HERE 
+    </div>
+    <br>
+</div>
+<div class="center">
+    <button class="rsvpButton">I'll be there!</button>
+    <button class="rsvpButton">I wouldn't miss it!</button>
+    <button class="rsvpButton">So excited!</button>
+</div>
+<script>
+    // Function to handle RSVP button click
+    function handleRSVP() {
+        alert('Yay! See you soon!');
+    }
+
+    // Add event listener to each RSVP button
+    var buttons = document.getElementsByClassName('rsvpButton');
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', handleRSVP);
+    }
+</script>
+</body>
+</html>
